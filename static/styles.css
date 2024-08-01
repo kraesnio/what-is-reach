@@ -1,0 +1,62 @@
+@font-face {
+    font-family: Oswald;
+    src: url(Oswald-VariableFont_wght.ttf);
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+        "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body main {
+    align-items: center;
+}
+
+.wideheader {
+    background-color: #0080cf;
+    min-width: 100vw;
+    min-height: 25vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.wideheader h1 {
+    font-size: 5rem;
+    font-weight: normal;
+    font-family: Oswald;
+    color: white;
+}
+
+.container nav {
+    float: none;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-item {
+    margin: 0;
+    padding: 0 5px 2px;
+    width: fit-content;
+    border-radius: 10px;
+    background-color: white;
+    transition: background-color 300ms;
+}
+
+.nav-item:hover {
+    background-color: #80d0ff;
+}
+
+.card {
+    text-align: left;
+    width: 844px;
+    max-width: 90vw;
+    margin: 20px auto;
+}
